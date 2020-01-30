@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 13px;
+    color: #4f5454;
+    margin: 0;
+    padding: 10px;
+
+}
+
+h2 {
+    background-color: #55B3c5;
+    margin: 0;
+    padding: 20px;
+    color:white;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed #dddddd;
+}
+
+legend {
+
+    font-size: 16px;
+    font-weight: 900; /* Para lo claro de la letra*/
+
+}
+
+.formElement {
+    
+    width: 10%;
+}
+
+select[name=rate] {
+    font-size: 14px;
+    width: 300px;
+}
+
+#submitButton , #submit, #busb, #eliminar{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #6278b0;
+}
+
+#submitButton:hover{
+    background-color: black;
+}
+
+.click:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.mostrar{
+    display: inline;
+    color: red;
+    
+}
+.quitar{
+
+    display: none;
+    color: red;
+}
+
+
+header{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+    border: 1px solid black;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Blog CRUD</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header><h1>Blog</h1></header>
+
+        <div id =comentarios></div>
+
+        <form action="" id="commentForm">
+            <fieldset>
+                <legend>Déjanos un comentario</legend>
+                <div>
+                    Titulo: <input type="text" id="titulo" class="formElement">
+                    <label  id="titulo" class="quitar">Poner Título</label>
+                    Autor: <input type="text" id="autor"  class="formElement">
+                    <label id="autor" class="quitar">Poner Autor</label>
+                </div>
+               <a>Your comment:</a>
+               <div id="nuevoComentario">
+                   <textarea cols="50" rows="4" id="contenido"></textarea>
+               </div>
+                <div for="submitButton">
+                    <input type="submit" id="submitButton" value="Submit" class="click">
+                </div>
+                
+            </fieldset>
+        </form>
+
+        <form action="" id="EditForm">
+            <fieldset>
+                <legend>Editar Comentario</legend>
+                <div>
+                    <div>ID: <input type="text" id="idb"  class="formElement"></div>
+                    <div>Titulo: <input type="text" id="titulob" class="formElement"></div>
+                    <div>Autor: <input type="text" id="autorb"  class="formElement"></div>
+                    
+                </div>
+               <a>New comment:</a>
+               <div id="editarCom">
+                   <textarea  cols="50" rows="4" id="contenidob"></textarea>
+               </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit" class="click">
+                </div>
+                
+            </fieldset>
+        </form>
+
+        <form action="" id="buscar">
+            <fieldset>
+                <legend>Buscar Comentario</legend>
+                <div>
+                    <div>Nombre: <input type="text" id="nomb"  class="formElement"></div>
+                    
+                </div>
+                <div>
+                    <input type="submit" id="busb" value="Submit" class="click">
+                </div>
+                
+            </fieldset>
+        </form>
+        <form action="" id="eliminarForm">
+            <fieldset>
+                <legend>Eliminar Comentario</legend>
+                <div>
+                    <div>ID: <input type="text" id="idEliminar"  class="formElement"></div>
+                    
+                </div>
+                <div>
+                    <input type="submit" id="eliminar" value="Submit" class="click">
+                </div>
+                
+            </fieldset>
+        </form>
+
+  
+
+  
+
+        
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>     
+        <script src="./js/index.js"></script>
+    </body>
+</html>
